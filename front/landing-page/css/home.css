@@ -1,0 +1,61 @@
+@import url(./cores.css);
+
+/* primeira seção  */
+.secao-intro {
+  background-color: var(--tom-roxo);
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 40px;
+  gap: 20px;
+}
+
+.imagem-gato img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.conteudo h2 {
+  font-size: 2.5rem;
+  color: var(--tom-amarelo);
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* segunda seção */
+
+.secao-produtos {
+  background-color: var(--tom-amarelo);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.secao-descontos {
+  background-color: var(--tom-branco);
+  color: var(--tom-preto);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.secao-endereco {
+  background-color: var(--tom-laranja);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.secao-sobre {
+  background-color: var(--tom-roxo);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
